@@ -120,16 +120,16 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/1000/default_primary.mpd
 #EXTVLCOPT:http-referrer=https://astrogo.astro.com.my
 #EXTINF:-1 tvg-id="106" ch-number="AstroOasis" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_Oasis_v1.png" group-title="🇲🇾",Astro Oasis 
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2505/default_primary.mpd
-# https://stream.zeehanzgadget.com/oasis.mpd
-# https://tv.kpsvpn.com/kpsboyoasis.mpd
 
 #EXTINF:-1 tvg-id="107" group-title="🇲🇾" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_Warna_v1.png",Astro Warna
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/2402
-#EXTVLCOPT:http-referrer=https://astrogo.astro.com.my
-https://stream.zeehanzgadget.com/warna
+http://axcestv.vip:8080/freeview2/axcestv2/459
+#https://link.zozotv.xyz/shukrisinar/shukrisinar/37
+#http://w.nasvpn.xyz:8080/live/suke/suke/13345.m3u8
+#https://tinyurl.com/bddmddvj
+#http://wanicelife.com:8880/EFLW122114/70NF2GH1/71146
+#https://bit.ly/3u2e5SW
 
-#EXTINF:-1 tvg-id="108" group-title="🇲🇾" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_Citra_v1.png",Astro Citra ⁽ˢᵉʳᵛᵉʳ ²⁾
+#EXTINF:-1 tvg-id="108" group-title="🇲🇾" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_Citra_v1.png",Astro Citra
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/2700
 #http://51.81.208.129:35461/80203091402/213445/6608
