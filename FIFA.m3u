@@ -1,0 +1,121 @@
+#EXTM3U url-tvg="https://weareblahs.github.io/epg/astro.xml" 
+#EXTM3U url-tvg="https://weareblahs.github.io/epg/unifitv.xml" 
+#EXTM3U url-tvg="https://weareblahs.github.io/epg/mytv.xml" 
+#EXTM3U url-tvg="https://weareblahs.github.io/epg/rtmklik.xml" 
+#EXTM3U url-tvg="https://aqfadtv.xyz/epg"
+#EXTM3U x-tvg-url=https://bit.ly/aqfadtvepg refresh="1440" max-conn="1" refresh="24"
+
+#EXTM3U url-tvg="https://weareblahs.github.io/epg/astro.xml, https://aqfadtv.xyz/epg, https://weareblahs.github.io/epg/rtmklik.xml, https://i.mjh.nz/SamsungTVPlus/all.xml, https://raw.githubusercontent.com/AqFad2811/epg/main/astro.xml, https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml, https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml, https://macan.tv/xmltv.php?username=epg&password=epg, https://iptv-org.github.io/epg/guides/sg/mewatch.sg.epg.xml, https://epg.kampung.xyz/IPTV.xml, https://iptv-org.github.io/epg/guides/in/dishtv.in.epg.xml, https://iptv-org.github.io/epg/guides/uk/bt.com.epg.xml, https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml, https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml, https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml, https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml, https://iptv-org.github.io/epg/guides/kr/wavve.com.epg.xml, https://iptv-org.github.io/epg/guides/us/tvguide.com.epg.xml, https://iptv-org.github.io/epg/guides/ca/tvtv.us.epg.xml"  refresh="3600"
+
+#EXTINF:-1 tvg-id="wc2022-1" tvg-name="wc2022 1" tvg-logo="https://linear-poster.astro.com.my/prod/logo/Qatar2022.png" group-title="🏆 FIFA", LIVE 1
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://webudi.openhd.lol/lb/premium294/index.m3u8|Referer=https://eplayer.click/premiumtv/poscitech.php?id=123
+
+#EXTINF:-1 tvg-id="wc2022-2" tvg-name="wc2022 2" tvg-logo="https://linear-poster.astro.com.my/prod/logo/Qatar2022.png" group-title="🏆 FIFA", LIVE 2
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://webudi.openhd.lol/lb/premium295/index.m3u8|Referer=https://eplayer.click/premiumtv/poscitech.php?id=123
+
+#EXTINF:-1 tvg-id="foxsports1" tvg-name="fox sports 1" group-title="🏆 FIFA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/2015_Fox_Sports_1_logo.svg/512px-2015_Fox_Sports_1_logo.svg.png", FOX SPORTS 1
+https://webudi.openhd.lol/ddy1/premium39/tracks-v1a1/mono.m3u8?|Referer=https://streamservicehd.click/maxsport.php?id=premium39&e=.m3u8
+
+#EXTINF:0 tvg-id="TSN1.ca" group-title="🏆 FIFA" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/upsspx1433379567.png", TSN 1
+https://ad2017.openhd.lol/lb/eplayerTSN_1_HD/index.m3u8?|Referer=https://player.licenses4.me/player.php?id=private
+
+#EXTINF:-1 tvg-id="SportTV1.pt" tvg-name="" tvg-logo="https://www.thesportsdb.com/images/media/tvlogo/sqxxtw1470409111.png" group-title="🏆 FIFA", SPORT TV 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+https://ptstream.livechymde.xyz/hls/pt_sporttv1/livehd/pt_sporttv1_level1/chunks.m3u8?|referer=https://aesport.tv/
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/HzT1Vg6/Picsart-22-11-18-19-18-19-950.png" group-title="🏆 FIFA", SPORT TV 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+https://ptstream.livechymde.xyz/hls/pt_sporttv2/livehd/pt_sporttv2_level1/chunks.m3u8?|referer=https://aesport.tv/&e=.m3u8
+
+#EXTINF:-1 group-title="🏆 FIFA" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f4/Sports18.png/revision/latest?cb=20220415104510", sports 18
+http://eu.majes-line.co/play/live.php?mac=00:1A:79:B6:B8:BF&stream=811763&extension=ts
+
+#EXTINF:-1 group-title="🏆 FIFA" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/ITV1_logo_%282022%29.svg/1280px-ITV1_logo_%282022%29.svg.png", itv 1
+http://channels.toysntrends.co.uk:80/play/lTpWLJCcSwv59pDR6I-ME5DWJatIviWfn2IKRch0BxmUX0rY6_GUu0Q_0i5Hq30Gh0lI7joJ2t3D4z9kIiTCzLwULNfG5sREnTHHV5I9AQo?ext=.ts
+
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-name="trt 1" group-title="🏆 FIFA" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/42s3t41616613172.png",TRT 1
+https://webudi.openhd.lol/primamax/prima900/tracks-v1a1/mono.m3u8?|Referer=https://streamservicehd.click/maxsport.php?id=prima900&e=.m3u8
+
+#EXTINF:-1 tvg-id="TVR1.ro" tvg-name="tvr 1" group-title="🏆 FIFA" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/3/3f/TVR_1_%282010-.n.v.%29.png/revision/latest?cb=20180622131700",TVR 1
+https://webudi.openhd.lol/cdn/8/tracks-v1a1/mono.m3u8?|Referer=https://streamservicehd.click/maxsport.php?id=tvr1&e=.m3u8
+
+#EXTINF:-1 group-title="🏆 FIFA" tvg-logo="https://www.nowtv.now.com/promo/fifaworldcup2022/images/wc-logo-en.png",NOW TV 4k World CUP
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 11; SM-A307GN Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.91 Mobile Safari/537.36
+http://cdn.spmr.tv:8080/pr8kvn/video.m3u8?token=WYPW6GSH4H
+
+#EXTINF:-1 group-title="🏆 FIFA" tvg-id="ASSP1.my" tvg-name="Astro SuperSport HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Astro_2016_logo.svg/320px-Astro_2016_logo.svg.png", Astro WORLD CUP LIVE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+https://webdi.openhd.lol/ddyx2/premium294/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="🏆 FIFA" tvg-id="ASSP1.my" tvg-name="Astro SuperSport HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Astro_2016_logo.svg/320px-Astro_2016_logo.svg.png", Astro WORLD CUP REPLAY
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+https://webdi.openhd.lol/ddyx2/premium295/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-logo="https://stitichsports.com/tv/images/small_picture/small_pic869.jpg" group-title="🏆 FIFA",BeinSports Max 3 EN
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+https://webudi.openhd.lol/lb/premium298/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-logo="https://stitichsports.com/tv/images/small_picture/small_pic867.jpg" group-title="🏆 FIFA",BeinSports Max 1 AR
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+https://webudi.openhd.lol/lb/premium296/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-logo="https://stitichsports.com/tv/images/small_picture/small_pic868.jpg" group-title="🏆 FIFA",BeinSports Max 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+https://webudi.openhd.lol/lb/premium297/index.m3u8|ExoPlayerLib/2.13.2=&referer=https://streamservicehd.click/.m3u8
+
+#EXTINF:-1 tvg-logo="https://stitichsports.com/tv/images/small_picture/small_pic541.jpg" group-title="🏆 FIFA",BeinSports Max 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+https://webdi.openhd.lol/ddyx2/premium299/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="🏆 FIFA" tvg-logo="https://stitichsports.com/tv/images/small_picture/small_pic675.jpg",TRT 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+https://webdi.openhd.lol/lb/premium1/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="🏆 FIFA" tvg-logo="https://stitichsports.com/tv/images/small_picture/small_pic507.jpg",M4 Sport
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+https://webdi.openhd.lol/lb/premium5/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 group-title="🏆 FIFA" tvg-logo="",ZIVE SPORT
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+https://webdi.openhd.lol/lb/premium9/index.m3u8?|referer=https://widevine.licenses4.me/&User-agent=REDLINECLIENT
+
+#EXTINF:-1 tvg-id="805" group-title="🏆 FIFA" ch-number="805" tvg-logo="", Tyso Sports
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://d3awnlgqz0szay.cloudfront.net/out/v1/b841c366cbe540e6a106c3ba83e5c8d6/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/HzT1Vg6/Picsart-22-11-18-19-18-19-950.png" group-title="🏆 FIFA", SAKTI 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://4d39-112-215-154-252.ap.ngrok.io/vvip/vidio.php?id=9431
+https://prod-drm-vidio-com-ctv-worldcup2.akamaized.net/out/v1/c8e8c362328d4b0fa97b2c3a8b934114/index.mpd
+
+#EXTINF:-1 tvg-id="beINSportsMax2.qa" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/417px-2022_FIFA_World_Cup.svg.png" group-title="🏆 FIFA",WORLD CUP 1
+https://cdn.raino.xyz/hls/stream1.m3u8|Referer=https://bdnewszh.com/
+
+#EXTINF:-1 tvg-id="beINSportsMax2.qa" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/417px-2022_FIFA_World_Cup.svg.png" group-title="🏆 FIFA",WORLD CUP 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+https://bl.uma.media/live/407384/HLS/6307840_7,4280320/2/1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="beINSportsMax2.qa" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/417px-2022_FIFA_World_Cup.svg.png" group-title="🏆 FIFA",WORLD CUP 3
+https://d3awnlgqz0szay.cloudfront.net/out/v1/b841c366cbe540e6a106c3ba83e5c8d6/index.m3u8
+
+#EXTINF:-1 tvg-id="beINSportsMax2.qa" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/417px-2022_FIFA_World_Cup.svg.png" group-title="🏆 FIFA",WORLD CUP 4
+https://farhol.nl/LIVE2
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/HzT1Vg6/Picsart-22-11-18-19-18-19-950.png" group-title="🏆 FIFA", True Sport 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+https://sport.livedoomovies.com:4431/02_2sporthd1_720p/chunklist.m3u8?|Referer=https://www.youdooball.com/
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/HzT1Vg6/Picsart-22-11-18-19-18-19-950.png" group-title="🏆 FIFA", True Sport 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+https://sport.livedoomovies.com:4431/02_2sporthd2_720p/chunklist.m3u8?|Referer=https://www.youdooball.com/
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/HzT1Vg6/Picsart-22-11-18-19-18-19-950.png" group-title="🏆 FIFA", True Sport 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0
+https://sport.livedoomovies.com:4431/02_2sporthd3_720p/chunklist.m3u8?|Referer=https://www.youdooball.com/
