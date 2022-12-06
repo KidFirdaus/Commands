@@ -92,19 +92,19 @@ https://aqfadtv.xyz/live/unifitv/degup/index.mpd
 #EXTINF:-1 tvg-id="128" group-title="🇲🇾" tvg-logo="https://i.ibb.co/r42DCKG/20190716074123890vav.png",Hypp Dunia Sinema
 https://aqfadtv.xyz/live/unifitv/duniasinema/index.mpd
 
-#EXTINF:-1 group-title="🇲🇾" tvg-id="104" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_RIA_v1.png",Astro Ria ⁽ˢᵉʳᵛᵉʳ ¹⁾
+#EXTINF:-1 group-title="🇲🇾" tvg-id="104" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_RIA_v1.png",Astro Ria ⁽A⁾
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/dash-ck/linear/1004
 #EXTVLCOPT:http-referrer=https://astrogo.astro.com.my
 https://staging-linearjitp-playback.astro.com.my/dash-wv/linear/1004/default_primary.mpd
 # https://movierakyat.link/m8qjxq.mpd
 
-#EXTINF:-1 group-title="🇲🇾" tvg-id="104" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_RIA_v1.png",Astro Ria ⁽ˢᵉʳᵛᵉʳ ²⁾
+#EXTINF:-1 group-title="🇲🇾" tvg-id="104" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_RIA_v1.png",Astro Ria ⁽B⁾
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/dash-ck/linear/1004
 https://aqfadtv.xyz/live/ria/index.mpd
 
-#EXTINF:-1 group-title="🇲🇾" tvg-id="104" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_RIA_v1.png",Astro Ria ⁽ˢᵉʳᵛᵉʳ ³⁾
+#EXTINF:-1 group-title="🇲🇾" tvg-id="104" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_RIA_v1.png",Astro Ria ⁽C⁾
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/dash-ck/linear/1004
 https://stream.zeehanzgadget.com/ria.mpd
@@ -123,35 +123,16 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/2505/default_primary.mpd
 # https://stream.zeehanzgadget.com/oasis.mpd
 # https://tv.kpsvpn.com/kpsboyoasis.mpd
 
-#EXTINF:-1 tvg-id="107" group-title="🇲🇾" ch-number="107" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_Warna_v1.png",Astro Warna ⁽ˢᵉʳᵛᵉʳ ¹⁾
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/dash-ck/linear/2402
-#EXTVLCOPT:http-referrer=https://astrogo.astro.com.my
-https://aqfadtv.xyz/live/warna/index.mpd
-
-#EXTINF:-1 tvg-id="107" group-title="🇲🇾" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_Warna_v1.png",Astro Warna ⁽ˢᵉʳᵛᵉʳ ²⁾
+#EXTINF:-1 tvg-id="107" group-title="🇲🇾" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_Warna_v1.png",Astro Warna
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/2402
 #EXTVLCOPT:http-referrer=https://astrogo.astro.com.my
 https://stream.zeehanzgadget.com/warna
 
-#EXTINF:-1 tvg-id="107" group-title="🇲🇾" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_Warna_v1.png",Astro Warna ⁽ˢᵉʳᵛᵉʳ ³⁾
-http://51.79.82.208:16010
-
-#EXTINF:-1 tvg-id="108" group-title="🇲🇾" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_Citra_v1.png",Astro Citra ⁽ˢᵉʳᵛᵉʳ ¹⁾
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/dash-ck/linear/2700
-https://aqfadtv.xyz/live/citra/index.mpd
-
 #EXTINF:-1 tvg-id="108" group-title="🇲🇾" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_Citra_v1.png",Astro Citra ⁽ˢᵉʳᵛᵉʳ ²⁾
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/2700
-#EXTVLCOPT:http-referrer=https://astrogo.astro.com.my
-https://stream.zeehanzgadget.com/citra
-# https://movierakyat.link/ePggbR.mpd
-
-#EXTINF:-1 tvg-id="108" group-title="🇲🇾" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_Citra_v1.png",Astro Citra ⁽ˢᵉʳᵛᵉʳ ³⁾
-https://m3u-editor.com:443/live/sirpn1tr/wcqg89yv/494142671.m3u8
+#http://51.81.208.129:35461/80203091402/213445/6608
 
 #EXTINF:-1 tvg-id="RTMK08" tvg-logo="https://rtm-images.glueapi.io/320x0/live_channel/PDN_bckg.png" group-title="🇲🇾",Parlimen Dewan Negara
 https://d25tgymtnqzu8s.cloudfront.net/smil:negara/chunklist_b4596000_slENG.m3u8
