@@ -2510,7 +2510,7 @@ https://dukuntv.my.id/57337005c17a518a3cee71d5170f05210698fd0b11a8f77733c08de39a
 https://webudi.openhd.lol/lb/premium35/index.m3u8
 https://dukuntv.my.id/57337005c17a518a3cee71d5170f05210698fd0b11a8f77733c08de39ab09ac67652ce68-78a50d92c806e206e634451643a7d8bf-1660653338-1660642539/olahraga/skyfootball
 
-#EXTINF:-1 tvg-id="818" tvg-logo="https://i.goalzz.com/?i=o%2Fh%2F1%2F212%2Fbein-sports-hd-1.png" group-title="⚽ SPORTS",beIN Sports HD
+#EXTINF:-1 tvg-id="818" tvg-logo="https://assets.beinsports.com/3.2.8/images/batch-logo.png" group-title="⚽ SPORTS",beIN Sports
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/408
 http://linearjitp-playback.astro.com.my/dash-wv/linear/408/default_ott.mpd
