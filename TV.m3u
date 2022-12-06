@@ -50,13 +50,7 @@ https://unifi-live05.secureswiftcontent.com/UnifiHD/live08.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/911
 #https://linearjitp-playback.astro.com.my/dash-wv/linear/911/default.mpd
 
-#EXTINF:-1 tvg-id="149" tvg-name="TV9" group-title="🇲🇾" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/6c/TV9_2021",TV9 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/unifitv/tv9/
-https://unifi-live09.secureswiftcontent.com/UnifiHD/live09.mpd
-# http://51.79.82.208:16006
-
-#EXTINF:-1 tvg-id="149" tvg-name="TV9" group-title="🇲🇾" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/6c/TV9_2021",TV9 
+#EXTINF:-1 tvg-id="149" tvg-name="TV9" group-title="🇲🇾" tvg-logo="https://i.ibb.co/YbgDnhz/tv9.png",TV9 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/705
 #https://linearjitp-playback.astro.com.my/dash-wv/linear/705/default.mpd
