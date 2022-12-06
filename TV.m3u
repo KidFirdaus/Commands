@@ -1112,7 +1112,7 @@ https://tglmp02.akamaized.net/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.m
 
 #######################################################################################################################################################################
 
-#EXTINF:-1 tvg-id="416" ch-number="416" group-title="🇰🇷 KOREA" tvg-logo="http://playtv.unifi.com.my:7039/CPS/images/universal/film/logo/201907/20190723/20190723084311221wnu.png",tvN Movies (MY)   
+#EXTINF:-1 tvg-id="416" ch-number="416" group-title="🇰🇷" tvg-logo="http://playtv.unifi.com.my:7039/CPS/images/universal/film/logo/201907/20190723/20190723084311221wnu.png",tvN Movies (MY)   
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/2406
 http://linearjitp-playback.astro.com.my/dash-wv/linear/2406/default_ott.mpd
@@ -1843,85 +1843,85 @@ http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/591105034c1806b4743
 
 #######################################################################################################################################################################
 
-#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/Snnzk5c/boxoffice.png" group-title="🎥 MOVIES_LIVE",US| BOX OFFICE 01
+#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/Snnzk5c/boxoffice.png" group-title="🔴🍿 LIVE MOVIES",US| BOX OFFICE 01
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924692
 
-#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/Snnzk5c/boxoffice.png" group-title="🎥 MOVIES_LIVE",US| BOX OFFICE 02
+#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/Snnzk5c/boxoffice.png" group-title="🔴🍿 LIVE MOVIES",US| BOX OFFICE 02
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924693
 
-#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/Snnzk5c/boxoffice.png" group-title="🎥 MOVIES_LIVE",US| BOX OFFICE 03
+#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/Snnzk5c/boxoffice.png" group-title="🔴🍿 LIVE MOVIES",US| BOX OFFICE 03
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924695
 
-#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/Snnzk5c/boxoffice.png" group-title="🎥 MOVIES_LIVE",US| BOX OFFICE 04
+#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/Snnzk5c/boxoffice.png" group-title="🔴🍿 LIVE MOVIES",US| BOX OFFICE 04
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924696
 
-#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/Snnzk5c/boxoffice.png" group-title="🎥 MOVIES_LIVE",US| BOX OFFICE 05
+#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/Snnzk5c/boxoffice.png" group-title="🔴🍿 LIVE MOVIES",US| BOX OFFICE 05
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924694
 
-#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/Snnzk5c/boxoffice.png" group-title="🎥 MOVIES_LIVE",US| BOX OFFICE 06
+#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/Snnzk5c/boxoffice.png" group-title="🔴🍿 LIVE MOVIES",US| BOX OFFICE 06
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924697
 
-#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/nr6CWcx/hbo-logo-png-transparent.png" group-title="🎥 MOVIES_LIVE",US| HBO MAX 01
+#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/nr6CWcx/hbo-logo-png-transparent.png" group-title="🔴🍿 LIVE MOVIES",US| HBO MAX 01
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924705
 
-#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/nr6CWcx/hbo-logo-png-transparent.png" group-title="🎥 MOVIES_LIVE",US| HBO MAX 02
+#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/nr6CWcx/hbo-logo-png-transparent.png" group-title="🔴🍿 LIVE MOVIES",US| HBO MAX 02
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924706
 
-#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/nr6CWcx/hbo-logo-png-transparent.png" group-title="🎥 MOVIES_LIVE",US| HBO MAX 03
+#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/nr6CWcx/hbo-logo-png-transparent.png" group-title="🔴🍿 LIVE MOVIES",US| HBO MAX 03
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924707
 
-#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/nr6CWcx/hbo-logo-png-transparent.png" group-title="🎥 MOVIES_LIVE",US| HBO MAX 04
+#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/nr6CWcx/hbo-logo-png-transparent.png" group-title="🔴🍿 LIVE MOVIES",US| HBO MAX 04
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924708
 
-#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/nr6CWcx/hbo-logo-png-transparent.png" group-title="🎥 MOVIES_LIVE",US| HBO MAX 05
+#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/nr6CWcx/hbo-logo-png-transparent.png" group-title="🔴🍿 LIVE MOVIES",US| HBO MAX 05
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924709
 
-#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/nr6CWcx/hbo-logo-png-transparent.png" group-title="🎥 MOVIES_LIVE",US| HBO MAX 06
+#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/nr6CWcx/hbo-logo-png-transparent.png" group-title="🔴🍿 LIVE MOVIES",US| HBO MAX 06
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924710
 
-#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/nr6CWcx/hbo-logo-png-transparent.png" group-title="🎥 MOVIES_LIVE",US| HBO MAX 07
+#EXTINF:-1 tvg-id="CHN" tvg-logo="https://i.ibb.co/nr6CWcx/hbo-logo-png-transparent.png" group-title="🔴🍿 LIVE MOVIES",US| HBO MAX 07
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924711
 
-#EXTINF:-1 tvg-id="CHN" tvg-name="US| NETFLIX 01" tvg-logo="http://logo.protv.cc/picons/logos/USA/NETFLIX.png" group-title="🎥 MOVIES_LIVE",US| NETFLIX 01
+#EXTINF:-1 tvg-id="CHN" tvg-name="US| NETFLIX 01" tvg-logo="http://logo.protv.cc/picons/logos/USA/NETFLIX.png" group-title="🔴🍿 LIVE MOVIES",US| NETFLIX 01
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924735
 
-#EXTINF:-1 tvg-id="CHN" tvg-name="US| NETFLIX 02" tvg-logo="http://logo.protv.cc/picons/logos/USA/NETFLIX.png" group-title="🎥 MOVIES_LIVE",US| NETFLIX 02
+#EXTINF:-1 tvg-id="CHN" tvg-name="US| NETFLIX 02" tvg-logo="http://logo.protv.cc/picons/logos/USA/NETFLIX.png" group-title="🔴🍿 LIVE MOVIES",US| NETFLIX 02
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924736
 
-#EXTINF:-1 tvg-id="CHN" tvg-name="US| NETFLIX 03" tvg-logo="http://logo.protv.cc/picons/logos/USA/NETFLIX.png" group-title="🎥 MOVIES_LIVE",US| NETFLIX 03
+#EXTINF:-1 tvg-id="CHN" tvg-name="US| NETFLIX 03" tvg-logo="http://logo.protv.cc/picons/logos/USA/NETFLIX.png" group-title="🔴🍿 LIVE MOVIES",US| NETFLIX 03
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924737
 
-#EXTINF:-1 tvg-id="CHN" tvg-name="US| NETFLIX 04" tvg-logo="http://logo.protv.cc/picons/logos/USA/NETFLIX.png" group-title="🎥 MOVIES_LIVE",US| NETFLIX 04
+#EXTINF:-1 tvg-id="CHN" tvg-name="US| NETFLIX 04" tvg-logo="http://logo.protv.cc/picons/logos/USA/NETFLIX.png" group-title="🔴🍿 LIVE MOVIES",US| NETFLIX 04
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924738
 
-#EXTINF:-1 tvg-id="CHN" tvg-name="US| NETFLIX 05" tvg-logo="http://logo.protv.cc/picons/logos/USA/NETFLIX.png" group-title="🎥 MOVIES_LIVE",US| NETFLIX 05
+#EXTINF:-1 tvg-id="CHN" tvg-name="US| NETFLIX 05" tvg-logo="http://logo.protv.cc/picons/logos/USA/NETFLIX.png" group-title="🔴🍿 LIVE MOVIES",US| NETFLIX 05
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924739
 
-#EXTINF:-1 tvg-id="CHN" tvg-name="US| NETFLIX 06" tvg-logo="http://logo.protv.cc/picons/logos/USA/NETFLIX.png" group-title="🎥 MOVIES_LIVE",US| NETFLIX 06
+#EXTINF:-1 tvg-id="CHN" tvg-name="US| NETFLIX 06" tvg-logo="http://logo.protv.cc/picons/logos/USA/NETFLIX.png" group-title="🔴🍿 LIVE MOVIES",US| NETFLIX 06
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924740
 
-#EXTINF:-1 tvg-id="CHN" tvg-name="US| SHOWTIME 01" tvg-logo="http://logo.protv.cc/picons/logos/USA/SHOWTIME.png" group-title="🎥 MOVIES_LIVE",US| SHOWTIME 01
+#EXTINF:-1 tvg-id="CHN" tvg-name="US| SHOWTIME 01" tvg-logo="http://logo.protv.cc/picons/logos/USA/SHOWTIME.png" group-title="🔴🍿 LIVE MOVIES",US| SHOWTIME 01
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924741
 
-#EXTINF:-1 tvg-id="CHN" tvg-name="US| SHOWTIME 02" tvg-logo="http://logo.protv.cc/picons/logos/USA/SHOWTIME.png" group-title="🎥 MOVIES_LIVE",US| SHOWTIME 02
+#EXTINF:-1 tvg-id="CHN" tvg-name="US| SHOWTIME 02" tvg-logo="http://logo.protv.cc/picons/logos/USA/SHOWTIME.png" group-title="🔴🍿 LIVE MOVIES",US| SHOWTIME 02
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924742
 
-#EXTINF:-1 tvg-id="CHN" tvg-name="US| SHOWTIME 03" tvg-logo="http://logo.protv.cc/picons/logos/USA/SHOWTIME.png" group-title="🎥 MOVIES_LIVE",US| SHOWTIME 03
+#EXTINF:-1 tvg-id="CHN" tvg-name="US| SHOWTIME 03" tvg-logo="http://logo.protv.cc/picons/logos/USA/SHOWTIME.png" group-title="🔴🍿 LIVE MOVIES",US| SHOWTIME 03
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924743
 
-#EXTINF:-1 tvg-id="CHN" tvg-name="US| SHOWTIME 04" tvg-logo="http://logo.protv.cc/picons/logos/USA/SHOWTIME.png" group-title="🎥 MOVIES_LIVE",US| SHOWTIME 04
+#EXTINF:-1 tvg-id="CHN" tvg-name="US| SHOWTIME 04" tvg-logo="http://logo.protv.cc/picons/logos/USA/SHOWTIME.png" group-title="🔴🍿 LIVE MOVIES",US| SHOWTIME 04
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924744
 
-#EXTINF:-1 tvg-id="CHN" tvg-name="US| SHOWTIME 05" tvg-logo="http://logo.protv.cc/picons/logos/USA/SHOWTIME.png" group-title="🎥 MOVIES_LIVE",US| SHOWTIME 05
+#EXTINF:-1 tvg-id="CHN" tvg-name="US| SHOWTIME 05" tvg-logo="http://logo.protv.cc/picons/logos/USA/SHOWTIME.png" group-title="🔴🍿 LIVE MOVIES",US| SHOWTIME 05
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924745
 
-#EXTINF:-1 tvg-id="CHN" tvg-name="US| SHOWTIME 06" tvg-logo="http://logo.protv.cc/picons/logos/USA/SHOWTIME.png" group-title="🎥 MOVIES_LIVE",US| SHOWTIME 06
+#EXTINF:-1 tvg-id="CHN" tvg-name="US| SHOWTIME 06" tvg-logo="http://logo.protv.cc/picons/logos/USA/SHOWTIME.png" group-title="🔴🍿 LIVE MOVIES",US| SHOWTIME 06
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924746
 
-#EXTINF:-1 tvg-id="CHN" tvg-name="US| SHOWTIME 07" tvg-logo="http://logo.protv.cc/picons/logos/USA/SHOWTIME.png" group-title="🎥 MOVIES_LIVE",US| SHOWTIME 07
+#EXTINF:-1 tvg-id="CHN" tvg-name="US| SHOWTIME 07" tvg-logo="http://logo.protv.cc/picons/logos/USA/SHOWTIME.png" group-title="🔴🍿 LIVE MOVIES",US| SHOWTIME 07
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924747
 
-#EXTINF:-1 tvg-id="CHN" tvg-name="US| SHOWTIME 08" tvg-logo="http://logo.protv.cc/picons/logos/USA/SHOWTIME.png" group-title="🎥 MOVIES_LIVE",US| SHOWTIME 08
+#EXTINF:-1 tvg-id="CHN" tvg-name="US| SHOWTIME 08" tvg-logo="http://logo.protv.cc/picons/logos/USA/SHOWTIME.png" group-title="🔴🍿 LIVE MOVIES",US| SHOWTIME 08
 http://line.premiumpowers.net:80/b6126cb61b/8021f2d210/924748
 
 #######################################################################################################################################################################
