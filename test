@@ -452,7 +452,7 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/2602/default_primary.mpd
 #EXTVLCOPT:http-referrer=https://rtmklik.rtm.gov.my/
 #EXTINF:-1 tvg-id="111" tvg-name="Sukan RTM" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b2/Sukan_RTM_1_April.png/revision/latest?cb=20210408125347" group-title="⚽ SPORTS",Sukan RTM
 https://rtmlive02.secureswiftcontent.com/rtm/live02_1080.m3u8|Referer=https://rtmklik.rtm.gov.my
-# https://rtmsportshdmobile.secureswiftcontent.com/Origin02/ngrp:RTM2/playlist.m3u8
+https://rtmsportshdmobile.secureswiftcontent.com/Origin02/ngrp:RTM2/playlist.m3u8
 
 #EXTINF:-1 tvg-id="801" ch-number="AstroArena" group-title="⚽ SPORTS" ch-number="801" tvg-logo="https://uploads-ssl.webflow.com/628702fff90f57833728b940/6295c19620598e05c5ef1455_VIP%2520ENTERTAINMENT%2520(5)-p-500.png",Astro Arena 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
