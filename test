@@ -2434,14 +2434,14 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/2110/default_primary.mpd
 
 #######################################################################################################################################################################
 
-#EXTINF:-1 tvg-id="eGGNetwork.my" tvg-name="eGG TV" tvg-logo="" group-title="⚽ SPORTS",eGG TV
+#EXTINF:-1 tvg-id="800" tvg-name="eGG TV" tvg-logo="" group-title="⚽ SPORTS",eGG TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/2602
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2602/default_primary.mpd
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
 #EXTVLCOPT:http-referrer=https://rtmklik.rtm.gov.my/
-#EXTINF:-1 tvg-id="SukanRTM.my" tvg-name="Sukan RTM" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b2/Sukan_RTM_1_April.png/revision/latest?cb=20210408125347" group-title="⚽ SPORTS",Sukan RTM
+#EXTINF:-1 tvg-id="111" tvg-name="Sukan RTM" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b2/Sukan_RTM_1_April.png/revision/latest?cb=20210408125347" group-title="⚽ SPORTS",Sukan RTM
 https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/chunklist_b4596000_slENG.m3u8
 #https://v-t-e-r.github.io/Umbrella/Playlist/Ch/Sukanrtm.m3u8
 
@@ -2457,7 +2457,7 @@ http://linearjitp-playback.astro.com.my/dash-wv/linear/5057/default_primary.mpd
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/1601
-#EXTINF:-1 tvg-id="AstroSupersportUHD" ch-number="805" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/ac/Astro_SuperSport_UHD.png/revision/latest?cb=20220415221642" group-title="⚽ SPORTS", Astro SuperSport UHD
+#EXTINF:-1 tvg-id="805" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/ac/Astro_SuperSport_UHD.png/revision/latest?cb=20220415221642" group-title="⚽ SPORTS", Astro SuperSport UHD
 https://linearjitp-playback.astro.com.my/dash-wv/linear/1601/default_primary.mpd
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
@@ -2480,12 +2480,12 @@ http://linearjitp-playback.astro.com.my/dash-wv/linear/2701/default_primary.mpd
 #EXTINF:-1 tvg-id="814" group-title="⚽ SPORTS" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/31/Astro_ASSP4_HD.png/revision/latest?cb=20200929174045",Astro SuperSport 4
 http://linearjitp-playback.astro.com.my/dash-wv/linear/2506/default_primary.mpd
 
-#EXTINF:-1 tvg-id="ESPNArgentina.ar" tvg-logo="https://i.ibb.co/k1X1mz8/Desain-tanpa-judul-2022-09-22-T102622-290-modified.png" group-title="⚽ SPORTS",ESPN 1
+#EXTINF:-1 tvg-id="815" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg/revision/latest?cb=20201130040927" group-title="⚽ SPORTS",ESPN 1
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://webudi.openhd.lol/lb/premium44/index.m3u8|ExoPlayerLib/2.13.2=&referer=https://streamservicehd.click/.m3u8
 
-#EXTINF:-1 tvg-id="ESPN2Argentina.ar" tvg-logo="https://i.ibb.co/k1X1mz8/Desain-tanpa-judul-2022-09-22-T102622-290-modified.png" group-title="⚽ SPORTS",ESPN 2
+#EXTINF:-1 tvg-id="816" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d5/ESPN2.svg/revision/latest?cb=20210609161318" group-title="⚽ SPORTS",ESPN 2
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://webudi.openhd.lol/lb/premium45/index.m3u8|ExoPlayerLib/2.13.2=&referer=https://streamservicehd.click/.m3u8
@@ -2495,38 +2495,38 @@ https://webudi.openhd.lol/lb/premium45/index.m3u8|ExoPlayerLib/2.13.2=&referer=h
 #KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/2100
 http://linearjitp-playback.astro.com.my/dash-wv/linear/2100/default_ott.mpd
 
-#EXTINF:-1 tvg-ID="SkySportsPremierLeague.uk" tvg-name="Sky Sports Premier League" tvg-logo="https://i.ibb.co/88CjXqT/Desain-tanpa-judul-56-modified.png" group-title="⚽ SPORTS",Sky Sports Premier League
+#EXTINF:-1 tvg-ID="SkySportsPremierLeague.uk" tvg-name="Sky Sports Premier League" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/da/Sky_Sports_Premier_League_2020.svg/revision/latest?cb=20200924152906" group-title="⚽ SPORTS",Sky Sports Premier League
 #EXTVLCOPT:http-referrer=https://olacast.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.3; WOW64; rv:31.0) Gecko/20011101 Firefox/31.0
 https://webudi.openhd.lol/lb/premium130/index.m3u8
 https://dukuntv.my.id/57337005c17a518a3cee71d5170f05210698fd0b11a8f77733c08de39ab09ac67652ce68-78a50d92c806e206e634451643a7d8bf-1660653338-1660642539/olahraga/skypremier
 
-#EXTINF:-1 tvg-ID="SkySportsF1.uk" tvg-name="Sky Sports F1" tvg-logo="https://i.ibb.co/88XwF6F/Desain-tanpa-judul-32-modified.png" group-title="⚽ SPORTS",Sky Sports Formula One
+#EXTINF:-1 tvg-ID="SkySportsF1.uk" tvg-name="Sky Sports F1" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1a/Sky_Sports_F1_2020.svg/revision/latest?cb=20200924152412" group-title="⚽ SPORTS",Sky Sports Formula One
 #EXTVLCOPT:http-referrer=https://olacast.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.3; WOW64; rv:31.0) Gecko/20011101 Firefox/31.0
 https://dukuntv.my.id/57337005c17a518a3cee71d5170f05210698fd0b11a8f77733c08de39ab09ac67652ce68-78a50d92c806e206e634451643a7d8bf-1660653338-1660642539/olahraga/skyf1
 
-#EXTINF:-1 tvg-id="SkySportMotoGP.it" tvg-logo="https://i.ibb.co/dBhDFM7/Desain-tanpa-judul-2022-07-14-T133351-399-modified.png" group-title="⚽ SPORTS",Sky Sports MotoGP
+#EXTINF:-1 tvg-id="SkySportMotoGP.it" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d1/Sky_Sport_MotoGP_2020.svg/revision/latest?cb=20220613173433" group-title="⚽ SPORTS",Sky Sports MotoGP
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.3; WOW64; rv:31.0) Gecko/20011101 Firefox/31.0
 https://dukuntv.my.id/57337005c17a518a3cee71d5170f05210698fd0b11a8f77733c08de39ab09ac67652ce68-78a50d92c806e206e634451643a7d8bf-1660653338-1660642539/olahraga/skygp
 
-#EXTINF:-1 tvg-ID="SkySportsFootball.uk" tvg-name="Sky Sports Football" tvg-logo="https://i.ibb.co/WPL9Gpw/Desain-tanpa-judul-28-modified-1.png" group-title="⚽ SPORTS",Sky Sports Football
+#EXTINF:-1 tvg-ID="SkySportsFootball.uk" tvg-name="Sky Sports Football" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fb/Sky_Sports_Football_2020.svg/revision/latest?cb=20200924152526" group-title="⚽ SPORTS",Sky Sports Football
 #EXTVLCOPT:http-referrer=https://olacast.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.3; WOW64; rv:31.0) Gecko/20011101 Firefox/31.0
 https://webudi.openhd.lol/lb/premium35/index.m3u8
 https://dukuntv.my.id/57337005c17a518a3cee71d5170f05210698fd0b11a8f77733c08de39ab09ac67652ce68-78a50d92c806e206e634451643a7d8bf-1660653338-1660642539/olahraga/skyfootball
 
-#EXTINF:-1 tvg-id="818" tvg-logo="https://assets.beinsports.com/3.2.8/images/batch-logo.png" group-title="⚽ SPORTS",beIN Sports
+#EXTINF:-1 tvg-id="818" tvg-logo="https://uploads-ssl.webflow.com/628702fff90f57833728b940/6295c19620598e1a9bef1471_3-p-500.png" group-title="⚽ SPORTS",beIN Sports
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/408
 http://linearjitp-playback.astro.com.my/dash-wv/linear/408/default_ott.mpd
 
-#EXTINF:-1 tvg-id="817" tvg-logo="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS2_DIGITAL_Mono.png" group-title="⚽ SPORTS",beIN Sports 2
+#EXTINF:-1 tvg-id="817" tvg-logo="https://uploads-ssl.webflow.com/628702fff90f57833728b940/6295c19620598eab0aef1475_2-p-500.png" group-title="⚽ SPORTS",beIN Sports 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/5013
 http://linearjitp-playback.astro.com.my/dash-wv/linear/5013/default_ott.mpd
 
-#EXTINF:-1 tvg-id="819" tvg-logo="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS3_DIGITAL_Mono.png" group-title="⚽ SPORTS",beIN Sports 3
+#EXTINF:-1 tvg-id="819" tvg-logo="https://uploads-ssl.webflow.com/628702fff90f57833728b940/6295c19620598e95e2ef1479_1-p-500.png" group-title="⚽ SPORTS",beIN Sports 3
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.astradamy.com/dash-ck/linear/2705
 http://linearjitp-playback.astro.com.my/dash-wv/linear/2705/default_ott.mpd
