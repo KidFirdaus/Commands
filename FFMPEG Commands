@@ -1,0 +1,60 @@
+BURN ASS SUBS----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ffmpeg -hwaccel qsv -i [INPUT].[EXTENSION] -vf "ass=subtitle.ass" -crf 21 -preset veryfast -c:a copy [OUTPUT].[EXTENSION]
+
+# ffmpeg -hwaccel qsv -i input.mp4 -vf "ass=subtitle.ass" -crf 21 -preset veryfast -c:a copy output.mp4
+## https://i.ibb.co/WxFmG3M/ffmpeg-burn-subs.png
+
+HEVC TO H264-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ffmpeg -i [INPUT].[EXTENSION] -map_metadata 0 -c:v libx264 -crf 18 -vf format=yuv420p -c:a copy [OUTPUT].[EXTENSION]
+
+# ffmpeg -i input.mkv -map_metadata 0 -c:v libx264 -crf 18 -vf format=yuv420p -c:a copy output.mp4
+
+EXTRACT COVER FROM AUDIO-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ffmpeg -i [INPUT].[EXTENSION] -an -vcodec copy [OUTPUT].[EXTENSION]
+
+# ffmpeg -i input.mp3 -an -vcodec copy cover.jpg
+
+EXTRACT COVER FROM VIDEO-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ffmpeg -i [INPUT].[EXTENSION] -map 0:v -map -0:V -c copy [OUTPUT].[EXTENSION]
+
+# ffmpeg -i input.mkv -map 0:v -map -0:V -c copy cover.png
+
+CONVERT AUDIO FORMAT---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ffmpeg -i [INPUT].[EXTENSION] input.mp3 -ab 320k -compression_level 0 -map_metadata 0 -id3v2_version 3 [OUTPUT].[EXTENSION]
+
+# ffmpeg -i input.mp3 -ab 320k -compression_level 0 -map_metadata 0 -id3v2_version 3 output.flac
+
+CONVERT VIDEO FORMAT---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ffmpeg -i [INPUT].[EXTENSION] -c:a copy -c:v [VIDEO FORMAT] -b:v 1M -crf 31 -preset veryfast [OUTPUT].[EXTENSION]
+
+# ffmpeg -i input.mp4 -c:a copy -c:v hevc -b:v 1M -crf 31 -preset veryfast output.mkv
+
+VIDEO TO AUDIO---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ffmpeg -i [INPUT].[EXTENSION] -vn -ar 48000 -ac 2 -ab 320k -f [AUDIO FORMAT] [OUTPUT].[EXTENSION]
+
+# ffmpeg -i input.mp4 -vn -ar 48000 -ac 2 -ab 320k -f flac output.flac
+
+VIDEO RESOLUTION CHANGE------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ffmpeg -i [INPUT].[EXTENSION] -filter:v scale=[WIDTH]:[HEIGHT] -c:a copy -b:v 1M -crf 31 -preset veryfast [OUTPUT].[EXTENSION]
+
+# ffmpeg -i input.mp4 -filter:v scale=1280:720 -c:a copy -b:v 1M -crf 31 -preset veryfast output.mp4
+
+VIDEO COMPRESSING------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ffmpeg -i [INPUT].[EXTENSION] -c:v libx264 -b:v 1M -crf 31 -preset veryfast [OUTPUT].[EXTENSION]
+
+# ffmpeg -i input.mp4 -c:v libx264 -preset veryfast -crf 31 output.mp4
+
+CONVERT TO GIF---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ffmpeg -ss [START_TIME SECONDS] -t [LENGTH] -i [INPUT].[EXTENSION] -filter_complex "[0:v] split [a][b];[a] palettegen [p];[b][p] paletteuse" output_trimmed.gif
+
+# ffmpeg -ss 23.0 -t 1.8 -i input.mp4 -filter_complex "[0:v] split [a][b];[a] palettegen [p];[b][p] paletteuse" output_trimmed.gif
