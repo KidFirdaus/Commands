@@ -1,0 +1,9 @@
+--------------------IMAGES-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SINGLE DOWNLOAD • gallery-dl -d "%USERPROFILE%\Downloads\IDM\Pictures" -r 5M [URL]
+
+BATCH DOWNLOADS • gallery-dl -d "%USERPROFILE%\Downloads\IDM\Pictures" -r 5M --input-file=batch.txt
+
+MANGA DOWNLOADS • gallery-dl -d "%USERPROFILE%\Downloads\IDM\Pictures" -r 5M --chapter-filter "(CHAPTER NO.) <= chapter <= (CHAPTER NO.)" -o "lang=en" "[URL:MangaDex,MangaNato]"
+
+Ex. gallery-dl -d "%USERPROFILE%\Downloads\IDM\Pictures" -r 5M --chapter-filter "10 <= chapter < 20" -o "lang=en" "https://mangadex.org/title/59793dd0-a2d8-41a2-9758-8197287a8539"
