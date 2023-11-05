@@ -1,0 +1,113 @@
+--------------------MP4------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+GENERIC VIDEOs • yt-dlp -f "bv*+ba/b" --no-part --hls-use-mpegts -N 100 --embed-metadata --embed-thumbnail --convert-thumbnail jpg --compat-options embed-thumbnail-atomicparsley -o "%USERPROFILE%\Downloads\IDM\Video\%(fulltitle)s - %(uploader)s [%(id)s].%(ext)s" --downloader aria2c --merge-output-format mp4 [URL]
+
+
+BATCH DL VIDEOs • yt-dlp -f "bv*+ba/b" --no-part --hls-use-mpegts -N 100 --embed-metadata --embed-thumbnail --convert-thumbnail jpg --compat-options embed-thumbnail-atomicparsley -o "%USERPROFILE%\Downloads\IDM\Video\%(webpage_url_domain)s\%(autonumber)s - %(fulltitle)s [%(id)s].%(ext)s" --downloader aria2c --merge-output-format mp4 --batch-file=batch.txt
+
+
+GENERIC PLAYLISTs • yt-dlp -f "bv*+ba/b" --no-part --hls-use-mpegts -N 100 --embed-metadata --embed-thumbnail --convert-thumbnail jpg --compat-options embed-thumbnail-atomicparsley --yes-playlist -o "%USERPROFILE%\Downloads\IDM\Video\%(playlist)s\%(playlist_index)s — %(upload_date>%Y-%m-%d)s • %(fulltitle)s [%(id)s].%(ext)s" --downloader aria2c --merge-output-format mp4 [URL]
+
+
+--------------------MKV------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+YOUTUBE VIDEOs • yt-dlp -f "bv*+ba/b" --no-part --hls-use-mpegts -N 100 --buffer-size 16K --http-chunk-size 10M --no-cache-dir --sponsorblock-mark all --embed-metadata --embed-subs --sub-lang "en.*" --convert-subs=ass --embed-thumbnail --convert-thumbnail png -o "%USERPROFILE%\Downloads\IDM\Video\%(fulltitle)s [%(id)s].%(ext)s" --downloader-args "aria2c:-c -x 16 -s 32 -j 32 -k 1M --file-allocation=none --optimize-concurrent-downloads=true --http-accept-gzip=true --max-overall-download-limit=0 --max-concurrent-downloads=5 --max-download-limit=0 --allow-overwrite=true" --merge-output-format mkv [URL]
+
+
+BATCH DL VIDEOs • yt-dlp -f "bv*+ba/b" --no-part --hls-use-mpegts -N 100 --buffer-size 16K --http-chunk-size 10M --no-cache-dir --sponsorblock-mark all --embed-metadata --embed-subs --sub-lang "en.*" --convert-subs=ass --embed-thumbnail --convert-thumbnail png -o "%USERPROFILE%\Downloads\IDM\Video\%(extractor)s\%(autonumber)s - %(fulltitle)s [%(id)s].%(ext)s" --downloader aria2c --downloader-args "aria2c:-c -x 16 -s 32 -j 32 -k 1M --file-allocation=none --optimize-concurrent-downloads=true --http-accept-gzip=true --max-overall-download-limit=0 --max-concurrent-downloads=5 --max-download-limit=0 --allow-overwrite=true" --merge-output-format mkv --batch-file=batch.txt
+
+
+YOUTUBE PLAYLISTs • yt-dlp -f "bv*+ba/b" --no-part --hls-use-mpegts -N 100 --buffer-size 16K --http-chunk-size 10M --no-cache-dir --sponsorblock-mark all --embed-metadata --embed-subs --sub-lang "en.*" --convert-subs=ass --embed-thumbnail --convert-thumbnail png --yes-playlist --playlist-start 1 -o "%USERPROFILE%\Downloads\IDM\Video\%(playlist)s\%(playlist_index)s — %(upload_date>%Y-%m-%d)s • %(fulltitle)s [%(id)s].%(ext)s" --downloader aria2c --downloader-args "aria2c:-c -x 16 -s 32 -j 32 -k 1M --file-allocation=none --optimize-concurrent-downloads=true --http-accept-gzip=true --max-overall-download-limit=0 --max-concurrent-downloads=5 --max-download-limit=0 --allow-overwrite=true" --merge-output-format mkv [URL]
+
+
+--------------------MP4-(1080p)----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+GENERIC VIDEOs • yt-dlp -f "bv*[height<=1080]+ba/b" --no-part --hls-use-mpegts -N 100 --embed-metadata --embed-thumbnail --convert-thumbnail jpg --compat-options embed-thumbnail-atomicparsley -o "%USERPROFILE%\Downloads\IDM\Video\%(fulltitle)s - %(uploader)s [%(id)s].%(ext)s" --downloader aria2c --merge-output-format mp4 [URL]
+
+
+SPECIFIC QUALITY • yt-dlp -S "res:1080" --no-part --hls-use-mpegts -N 100 --embed-metadata --embed-thumbnail --convert-thumbnail jpg --compat-options embed-thumbnail-atomicparsley -o "%USERPROFILE%\Downloads\IDM\Video\%(fulltitle)s [%(id)s].%(ext)s" --downloader aria2c --merge-output-format mp4 [URL]
+
+
+BATCH DL VIDEOs • yt-dlp -f "bv*[height<=1080]+ba/b" --no-part --hls-use-mpegts -N 100 --embed-metadata --embed-thumbnail --convert-thumbnail jpg --compat-options embed-thumbnail-atomicparsley -o "%USERPROFILE%\Downloads\IDM\Video\%(webpage_url_domain)s\%(autonumber)s - %(fulltitle)s [%(id)s].%(ext)s" --downloader aria2c --merge-output-format mp4 --batch-file=batch.txt
+
+
+GENERIC PLAYLISTs • yt-dlp -f "bv*[height<=1080]+ba/b" --no-part --hls-use-mpegts -N 100 --embed-metadata --embed-thumbnail --convert-thumbnail jpg --compat-options embed-thumbnail-atomicparsley --yes-playlist -o "%USERPROFILE%\Downloads\IDM\Video\%(playlist)s\%(playlist_index)s — %(upload_date>%Y-%m-%d)s • %(fulltitle)s [%(id)s].%(ext)s" --downloader aria2c --merge-output-format mp4 [URL]
+
+
+--------------------MP4-(720p)-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+GENERIC VIDEOs • yt-dlp -f "bv*[height<=720]+ba/b" --no-part --hls-use-mpegts -N 100 --embed-metadata --embed-thumbnail --convert-thumbnail jpg --compat-options embed-thumbnail-atomicparsley -o "%USERPROFILE%\Downloads\IDM\Video\%(fulltitle)s - %(uploader)s [%(id)s].%(ext)s" --downloader aria2c --merge-output-format mp4 [URL]
+
+
+SPECIFIC QUALITY • yt-dlp -S "res:720" --no-part --hls-use-mpegts -N 100 --embed-metadata --embed-thumbnail --convert-thumbnail jpg --compat-options embed-thumbnail-atomicparsley -o "%USERPROFILE%\Downloads\IDM\Video\%(fulltitle)s [%(id)s].%(ext)s" --downloader aria2c --merge-output-format mp4 [URL]
+
+
+BATCH DL VIDEOs • yt-dlp -f "bv*[height<=720]+ba/b" --no-part --hls-use-mpegts -N 100 --embed-metadata --embed-thumbnail --convert-thumbnail jpg --compat-options embed-thumbnail-atomicparsley -o "%USERPROFILE%\Downloads\IDM\Video\%(webpage_url_domain)s\%(autonumber)s - %(fulltitle)s [%(id)s].%(ext)s" --downloader aria2c --merge-output-format mp4 --batch-file=batch.txt
+
+
+GENERIC PLAYLISTs • yt-dlp -f "bv*[height<=720]+ba/b" --no-part --hls-use-mpegts -N 100 --embed-metadata --embed-thumbnail --convert-thumbnail jpg --compat-options embed-thumbnail-atomicparsley --yes-playlist -o "%USERPROFILE%\Downloads\IDM\Video\%(playlist)s\%(playlist_index)s — %(upload_date>%Y-%m-%d)s • %(fulltitle)s [%(id)s].%(ext)s" --downloader aria2c --merge-output-format mp4 [URL]
+
+
+--------------------MKV-(1080p)----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+YOUTUBE VIDEOs • yt-dlp -f "bv*[height<=1080]+ba/b" --no-part --hls-use-mpegts -N 100 --buffer-size 16K --http-chunk-size 10M --no-cache-dir --sponsorblock-mark all --embed-metadata --embed-subs --sub-lang "en.*" --convert-subs=ass --embed-thumbnail --convert-thumbnail png -o "%USERPROFILE%\Downloads\IDM\Video\%(fulltitle)s [%(id)s].%(ext)s" --downloader aria2c --downloader-args "aria2c:-c -x 16 -s 32 -j 32 -k 1M --file-allocation=none --optimize-concurrent-downloads=true --http-accept-gzip=true --max-overall-download-limit=0 --max-concurrent-downloads=5 --max-download-limit=0 --allow-overwrite=true" --merge-output-format mkv [URL]
+
+
+SPECIFIC QUALITY • yt-dlp -S "res:1080" --no-part --hls-use-mpegts -N 100 --buffer-size 16K --http-chunk-size 10M --no-cache-dir --sponsorblock-mark all --embed-metadata --embed-subs --sub-lang "en.*" --convert-subs=ass --embed-thumbnail --convert-thumbnail png -o "%USERPROFILE%\Downloads\IDM\Video\%(fulltitle)s [%(id)s].%(ext)s" --downloader aria2c --downloader-args "aria2c:-c -x 16 -s 32 -j 32 -k 1M --file-allocation=none --optimize-concurrent-downloads=true --http-accept-gzip=true --max-overall-download-limit=0 --max-concurrent-downloads=5 --max-download-limit=0 --allow-overwrite=true" --merge-output-format mkv [URL]
+
+
+BATCH DL VIDEOs • yt-dlp -f "bv*[height<=1080]+ba/b" --no-part --hls-use-mpegts -N 100 --buffer-size 16K --http-chunk-size 10M --no-cache-dir --sponsorblock-mark all --embed-metadata --embed-subs --sub-lang "en.*" --convert-subs=ass --embed-thumbnail --convert-thumbnail png -o "%USERPROFILE%\Downloads\IDM\Video\%(extractor)s\%(autonumber)s - %(fulltitle)s [%(id)s].%(ext)s" --downloader aria2c --downloader-args "aria2c:-c -x 16 -s 32 -j 32 -k 1M --file-allocation=none --optimize-concurrent-downloads=true --http-accept-gzip=true --max-overall-download-limit=0 --max-concurrent-downloads=5 --max-download-limit=0 --allow-overwrite=true" --merge-output-format mkv --batch-file=batch.txt
+
+
+YOUTUBE PLAYLISTs • yt-dlp -f "bv*[height<=1080]+ba/b" --no-part --hls-use-mpegts -N 100 --buffer-size 16K --http-chunk-size 10M --no-cache-dir --sponsorblock-mark all --embed-metadata --embed-subs --sub-lang "en.*" --convert-subs=ass --embed-thumbnail --convert-thumbnail png --yes-playlist --playlist-start 1 -o "%USERPROFILE%\Downloads\IDM\Video\%(playlist)s\%(playlist_index)s — %(upload_date>%Y-%m-%d)s • %(fulltitle)s [%(id)s].%(ext)s" --downloader aria2c --downloader-args "aria2c:-c -x 16 -s 32 -j 32 -k 1M --file-allocation=none --optimize-concurrent-downloads=true --http-accept-gzip=true --max-overall-download-limit=0 --max-concurrent-downloads=5 --max-download-limit=0 --allow-overwrite=true" --merge-output-format mkv [URL]
+
+
+--------------------MKV-(720p)-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+GENERIC VIDEOs • yt-dlp -f "bv*[height<=720]+ba/b" --no-part --hls-use-mpegts -N 100 --buffer-size 16K --http-chunk-size 10M --no-cache-dir --sponsorblock-mark all --embed-metadata --embed-subs --sub-lang "en.*" --convert-subs=ass --embed-thumbnail --convert-thumbnail png -o "%USERPROFILE%\Downloads\IDM\Video\%(fulltitle)s [%(id)s].%(ext)s" --downloader aria2c --downloader-args "aria2c:-c -x 16 -s 32 -j 32 -k 1M --file-allocation=none --optimize-concurrent-downloads=true --http-accept-gzip=true --max-overall-download-limit=0 --max-concurrent-downloads=5 --max-download-limit=0 --allow-overwrite=true" --merge-output-format mkv [URL]
+
+
+SPECIFIC QUALITY • yt-dlp -S "res:720" --no-part --hls-use-mpegts -N 100 --buffer-size 16K --http-chunk-size 10M --no-cache-dir --sponsorblock-mark all --embed-metadata --embed-subs --sub-lang "en.*" --convert-subs=ass --embed-thumbnail --convert-thumbnail png -o "%USERPROFILE%\Downloads\IDM\Video\%(fulltitle)s [%(id)s].%(ext)s" --downloader aria2c --downloader-args "aria2c:-c -x 16 -s 32 -j 32 -k 1M --file-allocation=none --optimize-concurrent-downloads=true --http-accept-gzip=true --max-overall-download-limit=0 --max-concurrent-downloads=5 --max-download-limit=0 --allow-overwrite=true" --merge-output-format mkv [URL]
+
+
+BATCH DL VIDEOs • yt-dlp -f "bv*[height<=720]+ba/b" --no-part --hls-use-mpegts -N 100 --buffer-size 16K --http-chunk-size 10M --no-cache-dir --sponsorblock-mark all --embed-metadata --embed-subs --sub-lang "en.*" --convert-subs=ass --embed-thumbnail --convert-thumbnail png -o "%USERPROFILE%\Downloads\IDM\Video\%(extractor)s\%(autonumber)s - %(fulltitle)s [%(id)s].%(ext)s" --downloader aria2c --downloader-args "aria2c:-c -x 16 -s 32 -j 32 -k 1M --file-allocation=none --optimize-concurrent-downloads=true --http-accept-gzip=true --max-overall-download-limit=0 --max-concurrent-downloads=5 --max-download-limit=0 --allow-overwrite=true" --merge-output-format mkv --batch-file=batch.txt
+
+
+YOUTUBE PLAYLISTs • yt-dlp -f "bv*[height<=720]+ba/b" --no-part --hls-use-mpegts -N 100 --buffer-size 16K --http-chunk-size 10M --no-cache-dir --sponsorblock-mark all --embed-metadata --embed-subs --sub-lang "en.*" --convert-subs=ass --embed-thumbnail --convert-thumbnail png --yes-playlist --playlist-start 1 -o "%USERPROFILE%\Downloads\IDM\Video\%(playlist)s\%(playlist_index)s — %(upload_date>%Y-%m-%d)s • %(fulltitle)s [%(id)s].%(ext)s" --downloader aria2c --downloader-args "aria2c:-c -x 16 -s 32 -j 32 -k 1M --file-allocation=none --optimize-concurrent-downloads=true --http-accept-gzip=true --max-overall-download-limit=0 --max-concurrent-downloads=5 --max-download-limit=0 --allow-overwrite=true" --merge-output-format mkv [URL]
+
+
+--------------------AUDIO----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FLAC • yt-dlp -x --audio-format flac --no-part -N 100 --embed-metadata --embed-thumbnail --convert-thumbnail jpg --compat-options embed-thumbnail-atomicparsley -o "%USERPROFILE%\Downloads\IDM\Music\%(track)s - %(artist)s.%(ext)s" --downloader aria2c --downloader-args "aria2c:-c -x 16 -s 32 -j 32 -k 1M --file-allocation=none --optimize-concurrent-downloads=true --http-accept-gzip=true --max-overall-download-limit=0 --max-concurrent-downloads=5 --max-download-limit=0 --allow-overwrite=true" [URL]
+
+
+WAV • yt-dlp -x --audio-format wav --no-part -N 100 --embed-metadata --embed-thumbnail --convert-thumbnail jpg --compat-options embed-thumbnail-atomicparsley -o "%USERPROFILE%\Downloads\IDM\Music\%(track)s - %(artist)s.%(ext)s" --downloader aria2c --downloader-args "aria2c:-c -x 16 -s 32 -j 32 -k 1M --file-allocation=none --optimize-concurrent-downloads=true --http-accept-gzip=true --max-overall-download-limit=0 --max-concurrent-downloads=5 --max-download-limit=0 --allow-overwrite=true" [URL]
+
+
+MP3 • yt-dlp -x --audio-format mp3 --no-part -N 100 --embed-metadata --embed-thumbnail --convert-thumbnail jpg --compat-options embed-thumbnail-atomicparsley -o "%USERPROFILE%\Downloads\IDM\Music\%(track)s - %(artist)s.%(ext)s" --downloader aria2c --downloader-args "aria2c:-c -x 16 -s 32 -j 32 -k 1M --file-allocation=none --optimize-concurrent-downloads=true --http-accept-gzip=true --max-overall-download-limit=0 --max-concurrent-downloads=5 --max-download-limit=0 --allow-overwrite=true" [URL]
+
+
+--------------------CUSTOM-FORMAT--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+LIST FORMATs • yt-dlp -F [URL]
+
+MKV • yt-dlp -f [VIDEO_ID]+[AUDIO_ID] --no-part --hls-use-mpegts -N 100 --buffer-size 16K --http-chunk-size 10M --no-cache-dir --sponsorblock-mark all --embed-metadata --embed-subs --sub-lang "en.*" --convert-subs=ass --embed-thumbnail --convert-thumbnail png -o "%USERPROFILE%\Downloads\IDM\Video\%(fulltitle)s [%(id)s].%(ext)s" --downloader aria2c --downloader-args "aria2c:-c -x 16 -s 32 -j 32 -k 1M --file-allocation=none --optimize-concurrent-downloads=true --http-accept-gzip=true --max-overall-download-limit=0 --max-concurrent-downloads=5 --max-download-limit=0 --allow-overwrite=true" --merge-output-format mkv [URL]
+
+MP4 • yt-dlp -f [VIDEO_ID]+[AUDIO_ID] --no-part --hls-use-mpegts -N 100 --embed-metadata --embed-thumbnail --convert-thumbnail jpg --compat-options embed-thumbnail-atomicparsley -o "%USERPROFILE%\Downloads\IDM\Video\%(fulltitle)s - %(uploader)s [%(id)s].%(ext)s" --downloader aria2c --merge-output-format mp4 [URL]
+
+
+--------------------ARIA2C---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+TORRENTs • aria2c --dir=${HOME}\Downloads\Torrents\ --seed-time=0 -x 16 -s 32 -j 32 -k 1M --file-allocation=none --optimize-concurrent-downloads=true --http-accept-gzip=true --max-overall-download-limit=0 --max-concurrent-downloads=5 --max-download-limit=0 --allow-overwrite=true '[MAGNET URL]'
+
+
+REGULAR DL • aria2c --dir=${HOME}\Downloads\ -x 16 -s 32 -j 32 -k 1M --file-allocation=none --optimize-concurrent-downloads=true --http-accept-gzip=true --max-overall-download-limit=0 --max-concurrent-downloads=5 --max-download-limit=0 --allow-overwrite=true '[URL]'
