@@ -1,0 +1,20 @@
+https://github.com/sdaqo/anipy-cli/
+
+
+--WATCH------------------------------------------------------------------------------------------
+
+
+SYNTAX • anipy-cli -q [RESOLUTION]
+
+
+EXAMPLE • anipy-cli -q 1080
+
+
+--DOWNLOAD---------------------------------------------------------------------------------------
+
+
+SYNTAX • anipy-cli -D -q [RESOLUTION]
+
+
+EXAMPLE • anipy-cli -D -q 1080
+
