@@ -15,7 +15,7 @@ spotdl --output "${HOME}\Downloads\IDM\Music\" --output-format flac --search-thr
 
 SOUNDCLOUD DL--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-scdl --force-metadata --path "${HOME}\Downloads\IDM\Music\" --onlymp3 --flac --extract-artist -l [URL]
+scdl --force-metadata --addtofile --original-art --extract-artist --onlymp3 --flac --path "${HOME}\Downloads\IDM\Music\" -l "URL"
 
 SYNCED LYRICS SEARCH-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
