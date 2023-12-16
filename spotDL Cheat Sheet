@@ -1,11 +1,24 @@
-WEB-UI---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+REQUIREMENTS:
 
-spotdl web
+https://github.com/spotDL/spotify-downloader
+https://github.com/0x7d4/syncedlyrics
+https://github.com/flyingrub/scdl
+
 
 SINGLE / PlAYLIST DL-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-spotdl --output "C:\Users\Administrator\Downloads\IDM\Music\" --output-format flac --search-threads 2 --download-threads 4 --lyrics-provider genius "URL"
+spotdl --output "${HOME}\Downloads\IDM\Music\" --output-format flac --search-threads 2 --download-threads 1 --lyrics-provider musixmatch "URL"
+
+YOUTUBE W/ SPOTIFY METADATA------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+spotdl --output "${HOME}\Downloads\IDM\Music\" --output-format flac --search-threads 2 --download-threads 1 --lyrics-provider musixmatch "YouTubeURL|SpotifyURL"
 
 SOUNDCLOUD DL--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-scdl --force-metadata --path "C:\Users\Administrator\Downloads\IDM\Music\" --onlymp3 --flac --extract-artist -l [URL]
+scdl --force-metadata --path "${HOME}\Downloads\IDM\Music\" --onlymp3 --flac --extract-artist -l [URL]
+
+SYNCED LYRICS SEARCH-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+cd "PATH_TO_SAVE"
+
+syncedlyrics "[ARTIST_NAME] - [TRACK_NAME]"
